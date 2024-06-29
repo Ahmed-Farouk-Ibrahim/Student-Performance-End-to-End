@@ -1,0 +1,12 @@
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+catboost
+xgboost
+Flask
+
+# Commented out the following line to avoid building the package repeatedly during development.
+# Uncomment this line when you are ready to build the package for production.
+# -e . 
