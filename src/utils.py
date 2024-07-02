@@ -54,7 +54,7 @@ def evaluate_models(X_train, y_train, X_test, y_test, models, param):
     """
     try:
         report = {}
-
+        # Iterates over each model in the models dictionary: For each model, performs grid search cross-validation to find the best hyperparameters
         for i in range(len(list(models))):
             model = list(models.values())[i]
             para = param[list(models.keys())[i]]

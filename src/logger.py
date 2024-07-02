@@ -25,11 +25,6 @@ logging.basicConfig(
     level=logging.INFO,  # Set the default logging level to INFO
 )
 
-# demonstrate_logging customized function to check logging is working:
-def demonstrate_logging():
-    logging.info("This is an informational message")
-    logging.warning("This is a warning message")
-    logging.error("This is an error message")
-
-if __name__ == "__main__":
-    demonstrate_logging()
+# Check logging is working:
+if __name__=='__main__':
+    logging.info("Logging is working")

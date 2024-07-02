@@ -5,7 +5,8 @@ matplotlib==3.5.1
 scikit-learn==0.24.2
 catboost==0.26
 xgboost==1.5.0
-Flask==2.0.2
+Flask==2.0.3
+Werkzeug==2.0.3
 dill==0.3.4
 
 
