@@ -50,4 +50,4 @@ def predict_datapoint():
 
 # Main execution block to run the Flask application
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", debug=True) # debug=True provides helpful error messages & automatically reloads the server when code changes are detected.
+    app.run(host="0.0.0.0")
