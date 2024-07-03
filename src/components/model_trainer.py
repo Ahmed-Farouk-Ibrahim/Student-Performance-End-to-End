@@ -60,7 +60,8 @@ class ModelTrainer:
             # Hyperparameter grid for each model
             params = {
                 "Decision Tree": {
-                    'criterion': ['squared_error', 'friedman_mse', 'absolute_error', 'poisson'],
+                    #'criterion': ['squared_error', 'friedman_mse', 'absolute_error', 'poisson'],
+                    'criterion': ['mse', 'friedman_mse', 'mae', 'poisson'],  # Use 'mse' and 'mae' for older versions
                 },
                 "Random Forest": {
                     'n_estimators': [8, 16, 32, 64, 128, 256]
