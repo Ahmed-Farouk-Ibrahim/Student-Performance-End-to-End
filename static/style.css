@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  
+  background: #3a6186;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: inherit;
+  z-index: 0;
+}
+
+.content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -0.5;
+  bottom: -0.5;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  width: 90%;
+  max-width: 470px;
+  padding: 0 40px 0 40px; /*top, right, bottom, and left (clockwise)*/
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+}
+
+.login h1 {
+  font-size: 1.8em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.789);
+  
+}
+
+.login .form-group {
+  margin-bottom: 0px;
+}
+
+.login .form-label {
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.789);
+  font-weight: bold;
+  margin-top: 5px; /* Adjust margin for space between labels */
+}
+
+.login .form-control {
+  /*display: block; /* Ensure each form control is on a new line */
+  background: rgba(255, 255, 255, 0.789);
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  font-variant: small-caps;
+  font-weight: bolder;
+  text-align: center;
+  color: #000;
+}
+
+.login .form-control:focus {
+  border: 1px solid #f2f2f2;
+}
+
+.login .btn {
+  background: #4a77d4;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 50px;
+  color: rgba(255, 255, 255, 0.789);
+  font-size: 16px;
+  
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+.login button:hover {
+  background: #3a66d4;
+}
+
+.mb-3 {
+  margin-bottom: 20px;
+}
+
+
+
+/* Additional styles for the prediction result */
+.login h2 {
+	color: rgba(255, 255, 255, 0.789);
+	font-size: 1.5em;
+	/* text-align: center; */
+	font-weight: bolder;
+
+  }
+
+  /* Adjustments for specific input fields */
+  .login input[type="number"]{
+	height: 25px; /* Adjust height as per your design */
+	font-size: 14px; /* Match font size with other form controls */
+	width: 97.5%; /* Ensure full width */
+	padding: 5px; /* Adjust padding if necessary */
+	border-radius: 5px;
+	
+  background: rgba(255, 255, 255, 0.67);
+	text-align: center;
+	-webkit-text-fill-color: #000;
+  }
